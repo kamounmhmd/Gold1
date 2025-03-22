@@ -18,6 +18,19 @@ RUN apt-get update && apt-get install -y \
     libpangocairo-1.0-0 \
     libxss1 \
     libgtk-3-0 \
+    libx11-xcb1 \
+    libxcomposite1 \
+    libxcursor1 \
+    libxdamage1 \
+    libxi6 \
+    libxtst6 \
+    libxrandr2 \
+    libgconf-2-4 \
+    libgstreamer1.0-0 \
+    libgstreamer-plugins-base1.0-0 \
+    fonts-liberation \
+    libappindicator3-1 \
+    libu2f-udev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
